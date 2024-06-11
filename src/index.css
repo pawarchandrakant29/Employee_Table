@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+  color: #fff;
+}
+.h1{
+  margin-bottom: 20px;
+}
+.bg-remove {
+  background-color: transparent;
+}
+
+.add-employee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff0044;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #111;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+td {
+  background-color: #222;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input {
+  margin: 8px 0;
+  padding: 12px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  padding: 12px 24px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.filter-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-inputs input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+.filter-inputs input:focus {
+  outline: none;
+}
+
+.filter-inputs svg {
+  color: #fff;
+  cursor: pointer;
+}
